@@ -13,6 +13,6 @@ else
 
 	echo "Sleeping 10 sec. before starting agent"
 	sleep 10
-	nohup sh /opt/agent/bin/datastax-agent &
+	nohup bash /opt/agent/bin/datastax-agent &
 fi
 sh /usr/local/bin/cassandra-clusternode
